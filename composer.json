@@ -1,9 +1,9 @@
 {
-    "name": "asika/spgateway",
+    "name": "mtchang/spgateway",
     "type": "spgateway-3rd-party-sdk",
     "description": "The PHP Spgateway package",
     "keywords": ["sdk", "spgateway", "payment"],
-    "homepage": "https://github.com/asika32764/spgateway",
+    "homepage": "https://github.com/mtchang/spgateway",
     "license": "MIT",
     "require": {
         "php": ">=5.3.10"
@@ -13,7 +13,6 @@
     "suggest": {
         "windwalker/renderer": "Install 3.x to support template render."
     },
-    "minimum-stability": "beta",
     "autoload": {
         "psr-4": {
             "Asika\\Spgateway\\": "src/"
